@@ -33,12 +33,12 @@ int main ()
 	// game loop
 	while (!WindowShouldClose())		// run the loop until the user presses ESCAPE or presses the Close button on the window
 	{
-		if (IsKeyDown(KEY_RIGHT)) move.x += speed;
-        if (IsKeyDown(KEY_LEFT)) move.x -= speed;
+		if (IsKeyDown(KEY_D)) move.x += speed;
+        if (IsKeyDown(KEY_A)) move.x -= speed;
 
         // Movimiento vertical
-        if (IsKeyDown(KEY_DOWN)) move.y += speed; // Recuerda: +Y es abajo
-        if (IsKeyDown(KEY_UP)) move.y -= speed;
+        if (IsKeyDown(KEY_S)) move.y += speed; // Recuerda: +Y es abajo
+        if (IsKeyDown(KEY_W)) move.y -= speed;
 		// drawing
 		BeginDrawing();
 
