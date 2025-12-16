@@ -49,7 +49,7 @@ int main ()
 		DrawText("Sopas", 200,40,20, BLACK);
 
 		// draw our texture to the screen
-		DrawTexture(wabbit, move, WHITE);
+		DrawTextureV(wabbit, move, WHITE);
 		
 		// end the frame and get ready for the next one  (display frame, poll input, etc...)
 		EndDrawing();
